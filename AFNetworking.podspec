@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.source_files = 'AFNetworking/AFNetworking.h'
 
   # 添加 PrivacyInfo.xcprivacy 资源
-  s.resource = 'AFNetworking/PrivacyInfo.xcprivacy'
+  s.resource = 'PrivacyInfo.xcprivacy'
 
   s.subspec 'Serialization' do |ss|
     ss.source_files = 'AFNetworking/AFURL{Request,Response}Serialization.{h,m}'
